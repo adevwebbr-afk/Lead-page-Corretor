@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="output.css">
+    <title>Seu Novo Lar | Imóveis</title>
+</head>
+<body>
+    <header class="bg-gradient-to-b from-[#000000] via-[#0A2E5C] to-[#1473E6] min-h-screen">
+        <!-- Navigation -->
+        <nav class="bg-black/80 py-4 px-6 flex justify-between items-center">
+            <img class="w-28" src="imagens/Logo-marca-100.png" alt="Logo">
+            <button class="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg transition duration-300">
+                <i class="fa-brands fa-whatsapp mr-2"></i>Contato
+            </button>
+        </nav>
+
+        <!-- Hero Section -->
+        <div class="container mx-auto px-6 py-16 flex flex-col lg:flex-row items-center justify-between">
+            <!-- Text Content -->
+            <div class="text-center lg:text-left lg:w-1/2 mb-12 lg:mb-0">
+                <h1 class="text-5xl lg:text-6xl text-white font-bold mb-6">
+                    Seu <span class="text-blue-400">novo lar</span> começa aqui
+                </h1>
+                <p class="text-xl text-gray-300 mb-8">
+                    Encontramos o imóvel perfeito para o seu orçamento
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                    <button class="bg-emerald-800 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition duration-300 flex items-center justify-center">
+                        <i class="fa-brands fa-whatsapp text-xl mr-3"></i>
+                        Falar no WhatsApp
+                    </button>
+                    <button id="ver-imoveis" class="bg-white/10 hover:bg-white/20 text-white border border-white/30 px-8 py-4 rounded-lg text-lg font-semibold transition duration-300">
+                        Ver Imóveis
+                    </button>
+                </div>
+            </div>
+
+            <!-- Image -->
+            <div class="lg:w-1/2 flex justify-center">
+                <img class="w-full max-w-md lg:max-w-lg" src="imagens/Corretor.png" alt="Corretor">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!--Imóveis -->
+        <section id="imoveis" class="bg-cyan-100/60 p-3 min-h-screen">
+           <div id="exibicao-imoveis" class="grid grid-cols-1 md:grid-cols-2 md:gap-8 md:p-20 lg:grid-cols-3 p-5"></div>
+        </section>
+        
+    </main>
+
+        <footer class="bg-gradient-to-r from-[#000000] via-[#0A2E5C] to-[#1473E6] text-white py-8 mt-12">
+            <nav>
+                <ul class="ml-5 lg:grid-cols-1 lg:grid  flex gap-4  md:gap-4 justify-center items-center">
+                    <li title="Adev_Web.br"><i class="fa-brands fa-instagram text-3xl md:text-2xl md:-mt-4 text-fuchsia-400"></i><a href="https://www.instagram.com/adev.web/"></a></li>
+                    <li title="(83) 98630-6588"><i class="fa-brands fa-whatsapp text-green-600 md:text-2xl text-3xl"></i><a href="https://www.instagram.com/adev.web/"></a></li>
+                </ul>
+            </nav>
+            <div class="container mx-auto px-6 text-center">
+                <p>&copy; 2024 Seu Novo Lar. Todos os direitos reservados.</p>
+            </div>
+        
+        </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+    @import "tailwindcss";
+
+    :root{
+        --principal: #0A2E5C;
+        --destaque: #1473E6;
+        --detalhes: #0F3D3E;
+        --elegante: #0D0D0D;
+        --azulClaro: #D9E6F2;
+    }
